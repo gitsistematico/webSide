@@ -1,0 +1,46 @@
+@media screen and (min-width: 481px) and (max-width: 1928px) {    
+    .first-container{
+        width: 100%;
+        height: 375px;
+        padding: 0;
+        margin: 0; 
+        background: url("../../assets/images/header-aboutus.jpg");  
+        background-repeat: no-repeat;        
+        .header-about-Us{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 100%;
+            font-size: 95px;
+            font-weight: 700;
+            margin-top: 144px;
+            color: #EEEEEE;
+            .title-a{                
+                margin-right: 15%;
+            }
+        }
+    }
+    .unlocking{
+        display: flex;
+        flex-direction: column;
+        background-color: #EEEEEE;
+        gap: 20px;
+        padding: 7%;
+        .blue-title{
+            width: 40%;
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 50px;
+            color: #4875FF;
+
+        }
+
+        .p-1{
+            font-size: 24px;
+        }
+
+        .p-2{
+            
+        }
+    }
+}

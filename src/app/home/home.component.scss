@@ -130,10 +130,17 @@
   .final-part {
     width: 100%;
     height: 400px;
-    background-image: url("../../assets/images/gattaca-stock-home-bellow.jpg");
+    background-image: url("../../assets/images/gattaca-stock-bannerplaceholder-mobile.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-size: cover;    
+    img{
+      position: absolute;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;   
+      z-index: -1;
+    }
     .text-title-blue {
       display: flex;
       flex-direction: row;
@@ -285,7 +292,7 @@
     background: url("../../assets/images/gattaca-stock-home-bellow.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;    
     .text-title-blue {
       display: flex;
       flex-direction: row;

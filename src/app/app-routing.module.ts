@@ -10,11 +10,15 @@ const routes: Routes = [
   {
     path:'',    
     pathMatch: 'full',
-    redirectTo: 'home'
+    redirectTo: 'aboutUs'
   },  
   {
     path:'home',
     component: HomeComponent 
+  },
+  {
+    path:'aboutUs',
+    component: AboutUsComponent 
   },
   {
     path:'tecnology',

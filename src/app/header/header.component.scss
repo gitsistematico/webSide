@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1928px) {
+@media screen and (min-width: 481px) and (max-width: 1920px) {
   /* … */
   .container{
     margin-left: 5rem;  
@@ -45,7 +45,7 @@
   .horizontal-menu {
     display: flex;
     flex-direction: row;
-    // color: white;
+    // // color: white;
     justify-content: space-between;
     align-items: center;
     width: 100%;

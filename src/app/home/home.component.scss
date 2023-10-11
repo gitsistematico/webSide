@@ -1,0 +1,106 @@
+@media screen and (min-width: 481px) and (max-width: 1928px) {
+  .container-home {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    .first-container {
+      width: 100%;
+      height: 720px;
+      background: url("../../assets/images/gattaca-stock-homeheroe.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      .preimplantation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        // position: absolute;
+        margin-top: 111px;
+        margin-left: 120px;
+        width: 450px;
+        height: 350px;
+        background: transparent
+          linear-gradient(180deg, #0a98ff 0%, #7d56ff 100%) 0% 0% no-repeat
+          padding-box;
+        border-radius: 50px 0px 90px 0px;
+        opacity: 0.87;
+        padding: 25px;
+        color: #ffffff;
+        .label-one {
+          font-size: 32px;
+          line-height: 30px;
+          .bold-one {
+            font-weight: 600;
+          }
+        }
+
+        .label-two {
+          font-size: 24px;
+          line-height: 30px;
+          a {
+            color: #ffffff;
+          }
+        }
+
+        .label-three {
+          font-size: 16px;
+          line-height: 15px;
+        }
+      }
+    }
+    .preimplantation-last {
+      display: flex;
+      flex-direction: column;
+      margin-top: 130px;
+      background: #eeeeee;
+      padding: 30px;
+      gap: 10px;
+      .blue-label {
+        margin-left: 90px;
+        font-size: 34px;
+        color: #4875ff;
+        font-weight: bold;
+      }
+
+      .blue-king-label {
+        margin-left: 90px;
+        font-size: 18px;
+        color: #0c1f4e;
+        font-weight: 500;
+      }
+    }
+    .blue-line{
+        background: transparent linear-gradient(270deg, #0A98FF 0%, #7D56FF 100%);
+        width: 100%;
+        height: 41px;
+    }
+  }
+
+  .proccess-work{
+
+    width: 100%;
+    height: 520px;
+    margin-top: 190px;
+    background: #030917;
+
+    .title{
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    .steps{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        .separe{
+            width: 5%;
+            height: 3px;
+            background: #7D56FF;
+        }
+    }
+  }
+
+}

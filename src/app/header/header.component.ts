@@ -6,11 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  isShowDivIf = true;
   constructor() { }
 
-  isShowDivIf = true;
-  toggleDisplayDivIf( type: number = 0) {
-
+  toggleDisplayDivIf( type: number = 0) {    
     if (type == 1) {      
       this.isShowDivIf = !this.isShowDivIf;
     }

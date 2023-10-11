@@ -4,14 +4,14 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { TechnologyComponent } from './technology/technology.component';
 import { BlogComponent } from './blog/blog.component';
 import { HomeComponent } from './home/home.component';
+import { CotactUsComponent } from './cotact-us/cotact-us.component';
 
 const routes: Routes = [
   {
     path:'',    
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
-  
+    pathMatch: 'full',
+    redirectTo: 'home'
+  },  
   {
     path:'home',
     component: HomeComponent 
@@ -22,7 +22,7 @@ const routes: Routes = [
   },
   {
     path:'contactUs',
-    component: AboutUsComponent 
+    component: CotactUsComponent 
   },
   {
     path:'blog',

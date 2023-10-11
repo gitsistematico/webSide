@@ -10,20 +10,22 @@ import { TechnologyComponent } from './technology/technology.component';
 import { HeaderComponent } from './header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
+import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
     AboutUsComponent,    
     CotactUsComponent,
     BlogComponent,
-    TechnologyComponent,
-    HeaderComponent,
+    TechnologyComponent,    
     HomeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     NgbModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

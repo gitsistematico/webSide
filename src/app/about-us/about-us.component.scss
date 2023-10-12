@@ -1,46 +1,90 @@
-@media screen and (min-width: 481px) and (max-width: 1928px) {    
-    .first-container{
-        width: 100%;
-        height: 375px;
-        padding: 0;
-        margin: 0; 
-        background: url("../../assets/images/header-aboutus.jpg");  
-        background-repeat: no-repeat;        
-        .header-about-Us{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            width: 100%;
-            font-size: 95px;
-            font-weight: 700;
-            margin-top: 144px;
-            color: #EEEEEE;
-            .title-a{                
-                margin-right: 15%;
-            }
-        }
+@media screen and (min-width: 481px) and (max-width: 1928px) {
+  .first-container {
+    width: 100%;
+    height: 375px;
+    padding: 0;
+    margin: 0;
+    background: url("../../assets/images/header-aboutus.jpg");
+    background-repeat: no-repeat;
+    .header-about-Us {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 100%;
+      font-size: 95px;
+      font-weight: 700;
+      margin-top: 144px;
+      color: #eeeeee;
+      .title-a {
+        margin-right: 15%;
+      }
     }
-    .unlocking{
+  }
+  .unlocking {
+    display: flex;
+    flex-direction: column;
+    background-color: #eeeeee;
+    gap: 20px;
+    padding: 7%;
+    .blue-title {
+      width: 40%;
+      font-size: 60px;
+      font-weight: 500;
+      line-height: 50px;
+      color: #4875ff;
+    }
+
+    .p-1 {
+      font-size: 24px;
+    }
+
+    .p-2 {
+    }
+  }
+  .blue-line {
+    background: transparent linear-gradient(270deg, #0a98ff 0%, #7d56ff 100%);
+    width: 100%;
+    height: 41px;
+  }
+
+  .footer-aboutUs {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;    
+    width: 100%;
+    height: 1020px;
+    background-image: url("../../assets/images/pregnancy-2021-08-29-18-04-51-utc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .foot-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;        
+        justify-content: flex-end;
+        margin-right: 5%;
+      .conten-blue {
         display: flex;
         flex-direction: column;
-        background-color: #EEEEEE;
-        gap: 20px;
-        padding: 7%;
-        .blue-title{
-            width: 40%;
-            font-size: 60px;
-            font-weight: 500;
-            line-height: 50px;
-            color: #4875FF;
-
+        justify-content: space-around;
+        width: 35%;
+        height: 439px;
+        padding: 30px;            
+        background: linear-gradient(180deg, #1e53d8 0%, #7d56ff 100%) 0% 0% no-repeat padding-box;
+        border-radius: 50px 0px 90px 0px;
+        opacity: 0.87;
+        .one-part{
+            font-size: 42px;
+            color: #ffffff;
+            font-weight: 400;
+            text-align: center;
         }
-
-        .p-1{
-            font-size: 24px;
+        .secon-part{
+            font-size: 20px;
+            color: #ffffff;
+            // font-weight: 400;
+            // text-align: center;
         }
-
-        .p-2{
-            
-        }
+      }
     }
+  }
 }

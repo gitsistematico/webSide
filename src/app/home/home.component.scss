@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 920px) {
   .container-home {
     width: 100%;
     padding: 0;
@@ -159,7 +159,7 @@
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1320px) {
+@media screen and (min-width: 921px){
   .container-home {
     width: 100%;
     padding: 0;
@@ -167,21 +167,22 @@
     .first-container {
       width: 100%;
       height: 720px;
-      background: url("../../assets/images/gattaca-stock-homeheroe.jpg");      
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 100% 100%;
-      .video-replay{
-        // position: relative;
-        width: 100%;
-        // height: 590px;
-      }
+      // background: url("../../assets/images/gattaca-stock-homeheroe.jpg");      
+      // background-repeat: no-repeat;
+      // background-attachment: fixed;
+      // background-size: 100% 100%; 
+      // .video-replay{
+      //   position: absolute;
+      //   width: 100%;
+      //   z-index: -1;
+      //   height: 720px;
+      // }
       .preimplantation {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         // position: absolute;
-        margin-top: 111px;
+        // margin-top: 111px;
         margin-left: 120px;
         width: 450px;
         height: 350px;

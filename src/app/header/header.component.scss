@@ -9,44 +9,44 @@
   font-weight: 700;
 }
 
-@media screen and (min-width: 480px) and (max-width: 520px){
-  .container{
-    margin-left: 1rem !important;  
-    margin-right: 2rem !important;  
-    max-width: 100% !important;
-  }
-}
+// @media screen and (min-width: 480px) and (max-width: 520px){
+//   .container{
+//     margin-left: 1rem !important;  
+//     margin-right: 2rem !important;  
+//     max-width: 100% !important;
+//   }
+// }
 
-@media screen and (min-width: 521px) and (max-width: 620px){
-  .container{
-    margin-left: 14rem !important;  
-    margin-right: 1rem !important;  
-    max-width: 100% !important;
-  }
-}
+// @media screen and (min-width: 521px) and (max-width: 620px){
+//   .container{
+//     margin-left: 14rem !important;  
+//     margin-right: 1rem !important;  
+//     max-width: 100% !important;
+//   }
+// }
 
-@media screen and (min-width: 621px) and (max-width: 719px){
-  .container{
-    margin-left: 12rem !important;  
-    margin-right: 1rem !important;  
-    max-width: 100% !important;
-  }
-}
+// @media screen and (min-width: 621px) and (max-width: 719px){
+//   .container{
+//     margin-left: 12rem !important;  
+//     margin-right: 1rem !important;  
+//     max-width: 100% !important;
+//   }
+// }
 
-@media screen and (min-width: 720px) and (max-width: 919px){
-  .container{
-    margin-left: 9rem !important;  
-    margin-right: 3rem !important;  
-    max-width: 100% !important;
-  }
-}
+// @media screen and (min-width: 720px) and (max-width: 919px){
+//   .container{
+//     margin-left: 9rem !important;  
+//     margin-right: 3rem !important;  
+//     max-width: 100% !important;
+//   }
+// }
 
 @media screen and (max-width: 920px) {
   /* … */
   // .container{
     .container{
-      margin-left: 5rem;  
-      margin-right: 3rem;  
+      // margin-left: 5rem;  
+      // margin-right: 3rem;  
       max-width: 100% !important;
     }
     

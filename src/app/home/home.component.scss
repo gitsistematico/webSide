@@ -1,154 +1,584 @@
-@media screen and (max-width: 920px) {
-  .container-home {
+// @media screen and (max-width: 920px) {
+//   .container-home {
+//     width: 100%;
+//     padding: 0;
+//     margin: 0;
+//     .first-container {
+//       width: 100%;
+//       height: 720px;
+//       // background-image: url("../../assets/images/gattaca-stock-homeheroe.jpg");      
+//       // background-repeat: no-repeat;
+//       // background-attachment: fixed;
+//       // background-size: 100% 100%;
+//       video{
+//         position: absolute;
+//         width: 100%;
+//         z-index: -1;
+//         height: auto;
+//       }
+//       .preimplantation {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: center;
+//         .preimplantation-body {
+//           display: flex;
+//           flex-direction: column;
+//           justify-content: space-around;
+//           margin-top: 111px;
+//           // margin-left: 120px;
+//           width: 300px;
+//           height: 200px;
+//           background: transparent
+//             linear-gradient(180deg, #0a98ff 0%, #7d56ff 100%) 0% 0% no-repeat
+//             padding-box;
+//           border-radius: 30px 0px 60px 0px;
+//           opacity: 0.87;
+//           padding: 25px;
+//           color: #ffffff;
+//           .label-one {
+//             font-size: 22px;
+//             line-height: 30px;
+//             .bold-one {
+//               font-weight: 600;
+//             }
+//           }
+
+//           .label-two {
+//             font-size: 14px;
+//             line-height: 30px;
+//             a {
+//               color: #ffffff;
+//             }
+//           }
+
+//           .label-three {
+//             font-size: 16px;
+//             line-height: 15px;
+//           }
+//         }
+//       }
+//     }
+//     .preimplantation-last {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       text-align: center;
+//       margin-top: 108px;
+//       background: #eeeeee;
+//       padding: 30px;
+//       gap: 15px;
+//       line-height: 30px;
+//       .blue-label {
+//         font-size: 34px;
+//         color: #4875ff;
+//         font-weight: bold;        
+//       }
+
+//       .blue-king-label {
+//         font-size: 18px;
+//         color: #0c1f4e;
+//         font-weight: 500;
+//       }
+//     }
+//     .blue-line {
+//       background: transparent linear-gradient(270deg, #0a98ff 0%, #7d56ff 100%);
+//       width: 100%;
+//       height: 41px;
+//     }
+//   }
+
+//   .proccess-work {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     width: 100%;
+//     height: 1730px;
+//     // margin-top: 50px;
+//     background: #030917;
+//     padding: 20px;
+//     .title {
+//       text-align: center;
+//       font-size: 40px;
+//       color: #ffffff;
+//       font-weight: 600;
+//       margin-top: 130px;
+//       margin-bottom: 54px;
+//       line-height: 35px;
+//     }
+
+//     .steps {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       width: 100%;
+//       gap: 70px;
+//       color: #ffffff;
+//       .steps-images {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         width: 20%;
+//         text-align: center;
+//         img {
+//           width: 60%;
+//         }
+//       }
+//       .separe {
+//         rotate: 90deg;
+//         width: 10%;
+//         height: 3px;
+//         background: #7d56ff;        
+//       }
+//     }
+//   }
+
+//   .final-part {
+//     width: 100%;
+//     height: 400px;
+//     background-image: url("../../assets/images/gattaca-stock-bannerplaceholder-mobile.jpg");
+//     background-repeat: no-repeat;
+//     // background-attachment: fixed;
+//     background-size: cover;    
+//     img{
+//       position: absolute;
+//       background-repeat: no-repeat;
+//       background-attachment: fixed;
+//       background-size: cover;   
+//       z-index: -1;
+//     }
+//     .text-title-blue {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: end;
+//       margin-right: 10%;
+//       .title-label {
+//         text-align: end;
+//         width: 53%;
+//         font-weight: 600;
+//         line-height: 35px;
+//         font-size: 34px;
+//         color: #4875ff;
+//         margin-top: 125px;
+//       }
+//     }
+//   }
+// }
+
+// @media screen and (min-width: 921px){
+//   .container-home {
+//     width: 100%;
+//     padding: 0;
+//     margin: 0;
+//     .first-container {
+//       width: 100%;
+//       height: 720px;
+//       // background: url("../../assets/images/gattaca-stock-homeheroe.jpg");      
+//       // background-repeat: no-repeat;
+//       // background-attachment: fixed;
+//       // background-size: 100% 100%; 
+//       video{
+//         position: absolute;
+//         width: 100%;
+//         z-index: -1;
+//         height: auto;
+//       }
+//       .preimplantation {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-around;
+//         // position: absolute;
+//         margin-top: 2%;
+//         margin-left: 2%;
+//         width: 450px;
+//         // height: 350px;
+//         background: transparent
+//           linear-gradient(180deg, #0a98ff 0%, #7d56ff 100%) 0% 0% no-repeat
+//           padding-box;
+//         border-radius: 50px 0px 90px 0px;
+//         opacity: 0.87;
+//         padding: 25px;
+//         color: #ffffff;
+//         .preimplantation-body {
+//           display: flex;
+//           flex-direction: column;
+//           gap: 40px;
+//           .label-one {
+//             font-size: 32px;
+//             line-height: 30px;
+//             .bold-one {
+//               font-weight: 600;
+//             }
+//           }
+
+//           .label-two {
+//             font-size: 24px;
+//             line-height: 30px;
+//             a {
+//               color: #ffffff;
+//             }
+//           }
+
+//           .label-three {
+//             font-size: 16px;
+//             line-height: 15px;
+//           }
+//         }
+//       }
+//     }
+//     .preimplantation-last {
+//       display: flex;
+//       flex-direction: column;
+//       margin-top: 470px;
+//       background: #eeeeee;
+//       padding: 30px;
+//       gap: 10px;
+//       .blue-label {
+//         margin-left: 90px;
+//         font-size: 34px;
+//         color: #4875ff;
+//         font-weight: bold;
+//       }
+
+//       .blue-king-label {
+//         margin-left: 90px;
+//         font-size: 18px;
+//         color: #0c1f4e;
+//         font-weight: 500;
+//       }
+//     }
+//     .blue-line {
+//       background: transparent linear-gradient(270deg, #0a98ff 0%, #7d56ff 100%);
+//       width: 100%;
+//       height: 41px;
+//     }
+//   }
+
+//   .proccess-work {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     width: 100%;
+//     height: 620px;
+//     margin-top: 10px;
+//     background: #030917;
+
+//     .title {
+//       text-align: center;
+//       font-size: 40px;
+//       color: #ffffff;
+//       font-weight: 600;
+//       margin-bottom: 100px;
+//     }
+
+//     .steps {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: center;
+//       align-items: flex-start;
+//       width: 100%;
+//       gap: 10px;
+//       color: #ffffff;
+//       .steps-images {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         width: 14%;
+//         text-align: center;
+//         img {
+//           width: 60%;
+//         }
+//       }
+//       .separe {
+//         width: 5%;
+//         height: 3px;
+//         background: #7d56ff;
+//         margin-top: 4%;
+//       }
+//     }
+//   }
+
+//   .final-part {
+//     width: 100%;
+//     height: 580px;
+//     background: url("../../assets/images/gattaca-stock-home-bellow.jpg");
+//     background-repeat: no-repeat;
+//     background-attachment: fixed;
+//     background-size: cover;    
+//     .text-title-blue {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: end;
+//       margin-right: 10%;
+//       .title-label {
+//         width: 25%;
+//         font-weight: 600;
+//         line-height: 35px;
+//         font-size: 34px;
+//         color: #4875ff;
+//         margin-top: 270px;
+//       }
+//     }
+//   }
+// }
+
+
+.nav-bar{
+  position: absolute;
+  width: 100%;
+  // padding: 0 48px 0 80px;
+  z-index: 2;
+}
+
+.container-home{
+  width: 100%;
+}
+
+.first-container {
+  position: relative;
+  width: 100%;
+
+  .video-replay {
     width: 100%;
-    padding: 0;
-    margin: 0;
-    .first-container {
-      width: 100%;
-      height: 720px;
-      // background-image: url("../../assets/images/gattaca-stock-homeheroe.jpg");      
-      // background-repeat: no-repeat;
-      // background-attachment: fixed;
-      // background-size: 100% 100%;
-      video{
-        position: absolute;
-        width: 100%;
-        z-index: -1;
-        height: auto;
-      }
-      .preimplantation {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        .preimplantation-body {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-around;
-          margin-top: 111px;
-          // margin-left: 120px;
-          width: 300px;
-          height: 200px;
-          background: transparent
-            linear-gradient(180deg, #0a98ff 0%, #7d56ff 100%) 0% 0% no-repeat
-            padding-box;
-          border-radius: 30px 0px 60px 0px;
-          opacity: 0.87;
-          padding: 25px;
-          color: #ffffff;
-          .label-one {
-            font-size: 22px;
-            line-height: 30px;
-            .bold-one {
-              font-weight: 600;
-            }
-          }
+    height: 100%;
+    max-height: 800px;
+    object-fit: cover;
+    object-position: top;
+  }
 
-          .label-two {
-            font-size: 14px;
-            line-height: 30px;
-            a {
-              color: #ffffff;
-            }
-          }
+  .preimplantation {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
 
-          .label-three {
-            font-size: 16px;
-            line-height: 15px;
-          }
-        }
-      }
-    }
-    .preimplantation-last {
+    .preimplantation-body {
+      padding: 30px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      margin-top: 108px;
-      background: #eeeeee;
-      padding: 30px;
-      gap: 15px;
-      line-height: 30px;
-      .blue-label {
-        font-size: 34px;
-        color: #4875ff;
-        font-weight: bold;        
+      gap: 20px;
+      max-width: 400px;
+      opacity: 0.87;
+      border-radius: 50px 0px 90px 0px;
+      background: linear-gradient(0.25turn, #0A98FF, #7D56FF);
+
+      .label-one {
+        color: white;
+        font-size: 30px;
+        // line-height: 30px;
+        font-weight: 500;
+        .bold-one {
+          font-weight: 600;
+        }
       }
 
-      .blue-king-label {
-        font-size: 18px;
-        color: #0c1f4e;
-        font-weight: 500;
+      .label-two {
+        color: white;
+        font-size: 20px;
+        // line-height: 30px;
+        a {
+          color: #ffffff;
+        }
+      }
+
+      .label-three {
+        color: white;
+        font-size: 14px;
+        // line-height: 15px;
       }
     }
-    .blue-line {
-      background: transparent linear-gradient(270deg, #0a98ff 0%, #7d56ff 100%);
-      width: 100%;
-      height: 41px;
+  }
+}
+
+.preimplantation-last{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 20px 30px 80px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  background: #eeeeee;
+
+  .blue-label {
+      font-weight: 500;
+      font-size: 40px;
+      color: #4875FF;
+  }
+
+  .blue-king-label {
+      font-size: 25px;
+      color: #0C1F4E;
+  }
+}
+
+.blue-line {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(0.25turn, #0A98FF, #7D56FF)
+}
+
+.proccess-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 620px;
+  // margin-top: 10px;
+  background: #030917;
+
+  .title {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 100px;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    // gap: 10px;
+    color: #ffffff;
+    .steps-images {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 14%;
+      text-align: center;
+      img {
+        width: 80%;
+      }
+    }
+    .separe {
+      width: 7%;
+      height: 3px;
+      background: #7d56ff;
+      margin-top: 6%;
+    }
+  }
+}
+
+.final-part {
+  width: 100%;
+  position: relative;
+  // height: 700px;
+  // background-image: url("../../assets/images/gattaca-stock-bannerplaceholder-mobile.jpg");
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
+  // background-size: cover;    
+  img{
+    // position: absolute;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
+    // background-size: cover;   
+    // z-index: -1;
+    width: 100%;
+  }
+  .text-title-blue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 10%;
+    .title-label {
+      text-align: end;
+      width: 53%;
+      font-weight: 600;
+      // line-height: 35px;
+      font-size: 34px;
+      color: #4875ff;
+      margin-top: 125px;
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .first-container{
+    .preimplantation {
+      margin: 20px;
+      bottom: 0;
+      left: 0;
+      .preimplantation-body {
+        padding: 20px;
+        .label-one {
+          font-size: 22px;
+        }
+  
+        .label-two {
+          font-size: 18px;
+        }
+  
+        .label-three {
+          font-size: 12px;
+        }
+      }
+
+    }
+  }
+  .preimplantation-last{
+    padding: 10px;
+    align-items: center;
+    .blue-label {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .blue-king-label {
+       font-size: 16px;
+       text-align: center;
     }
   }
 
   .proccess-work {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 1730px;
-    // margin-top: 50px;
-    background: #030917;
-    padding: 20px;
-    .title {
-      text-align: center;
-      font-size: 40px;
-      color: #ffffff;
-      font-weight: 600;
-      margin-top: 130px;
-      margin-bottom: 54px;
-      line-height: 35px;
+    height: auto;
+    gap: 20px;
+    padding-bottom: 30px;
+
+    .title{
+      font-size: 26px;
+      padding: 0 20px;
+      margin: 0;
     }
 
-    .steps {
-      display: flex;
+    .steps{
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      width: 100%;
-      gap: 70px;
-      color: #ffffff;
+      gap: 10px;
+
       .steps-images {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 20%;
-        text-align: center;
-        img {
-          width: 60%;
+        width: 100%;
+        padding: 0 20px;
+
+        img{
+          width: 40%;
         }
       }
+
       .separe {
         rotate: 90deg;
-        width: 10%;
-        height: 3px;
-        background: #7d56ff;        
+        width: 40px;
+        margin-bottom: 30px;
       }
     }
   }
 
   .final-part {
     width: 100%;
-    height: 400px;
-    background-image: url("../../assets/images/gattaca-stock-bannerplaceholder-mobile.jpg");
-    background-repeat: no-repeat;
-    // background-attachment: fixed;
-    background-size: cover;    
+    position: relative; 
     img{
-      position: absolute;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;   
-      z-index: -1;
+      min-height: 300px;
+      object-fit: cover;
+      // object-position: 15%;
     }
     .text-title-blue {
+      position: absolute;
+      top: 0;
+      right: 0;
       display: flex;
       flex-direction: row;
       justify-content: end;
@@ -157,167 +587,10 @@
         text-align: end;
         width: 53%;
         font-weight: 600;
-        line-height: 35px;
-        font-size: 34px;
+        // line-height: 35px;
+        font-size: 25px;
         color: #4875ff;
-        margin-top: 125px;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 921px){
-  .container-home {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    .first-container {
-      width: 100%;
-      height: 720px;
-      // background: url("../../assets/images/gattaca-stock-homeheroe.jpg");      
-      // background-repeat: no-repeat;
-      // background-attachment: fixed;
-      // background-size: 100% 100%; 
-      video{
-        position: absolute;
-        width: 100%;
-        z-index: -1;
-        height: auto;
-      }
-      .preimplantation {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        // position: absolute;
-        margin-top: 2%;
-        margin-left: 2%;
-        width: 450px;
-        // height: 350px;
-        background: transparent
-          linear-gradient(180deg, #0a98ff 0%, #7d56ff 100%) 0% 0% no-repeat
-          padding-box;
-        border-radius: 50px 0px 90px 0px;
-        opacity: 0.87;
-        padding: 25px;
-        color: #ffffff;
-        .preimplantation-body {
-          display: flex;
-          flex-direction: column;
-          gap: 40px;
-          .label-one {
-            font-size: 32px;
-            line-height: 30px;
-            .bold-one {
-              font-weight: 600;
-            }
-          }
-
-          .label-two {
-            font-size: 24px;
-            line-height: 30px;
-            a {
-              color: #ffffff;
-            }
-          }
-
-          .label-three {
-            font-size: 16px;
-            line-height: 15px;
-          }
-        }
-      }
-    }
-    .preimplantation-last {
-      display: flex;
-      flex-direction: column;
-      margin-top: 470px;
-      background: #eeeeee;
-      padding: 30px;
-      gap: 10px;
-      .blue-label {
-        margin-left: 90px;
-        font-size: 34px;
-        color: #4875ff;
-        font-weight: bold;
-      }
-
-      .blue-king-label {
-        margin-left: 90px;
-        font-size: 18px;
-        color: #0c1f4e;
-        font-weight: 500;
-      }
-    }
-    .blue-line {
-      background: transparent linear-gradient(270deg, #0a98ff 0%, #7d56ff 100%);
-      width: 100%;
-      height: 41px;
-    }
-  }
-
-  .proccess-work {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 620px;
-    margin-top: 10px;
-    background: #030917;
-
-    .title {
-      text-align: center;
-      font-size: 40px;
-      color: #ffffff;
-      font-weight: 600;
-      margin-bottom: 100px;
-    }
-
-    .steps {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-start;
-      width: 100%;
-      gap: 10px;
-      color: #ffffff;
-      .steps-images {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 14%;
-        text-align: center;
-        img {
-          width: 60%;
-        }
-      }
-      .separe {
-        width: 5%;
-        height: 3px;
-        background: #7d56ff;
-        margin-top: 4%;
-      }
-    }
-  }
-
-  .final-part {
-    width: 100%;
-    height: 580px;
-    background: url("../../assets/images/gattaca-stock-home-bellow.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;    
-    .text-title-blue {
-      display: flex;
-      flex-direction: row;
-      justify-content: end;
-      margin-right: 10%;
-      .title-label {
-        width: 25%;
-        font-weight: 600;
-        line-height: 35px;
-        font-size: 34px;
-        color: #4875ff;
-        margin-top: 270px;
+        margin-top: 50px;
       }
     }
   }

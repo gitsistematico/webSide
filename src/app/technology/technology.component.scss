@@ -1,0 +1,193 @@
+.nav-bar{
+    position: absolute;
+    width: 100%;
+    padding: 0 48px 0 80px;
+}
+.contact-head{
+    width: 100%;
+    height: 300px;
+    background: url("../../assets/images/gattaca site slices/header-contactus.jpg");
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-end;
+    h2 {
+        font-size: 70px;
+        font-weight: 500;
+        color: white;
+        margin: 0;
+        padding: 0;
+        padding-right: 15px;
+    }
+}
+
+.contact-sub-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px 30px 80px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    h3 {
+        font-weight: 500;
+        font-size: 40px;
+        color: #4875FF;
+    }
+
+    p {
+        font-size: 25px;
+        color: #0C1F4E;
+    }
+}
+
+.line-gradient {
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(0.25turn, #0A98FF, #7D56FF)
+}
+
+.tech-data {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 50px 60px;
+    // height: 900px;
+}
+
+.data-container{
+    width: 50%;
+    h3 {
+        font-size: 35px;
+        color: white;
+        padding-bottom: 20px;    
+        padding-left: 20px;    
+    }
+    
+    .info-content{
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        background: linear-gradient(#1E53D8, #7D56FF);
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        padding: 50px 30px;
+        p {
+            font-size: 16px;
+            color: white;
+        }
+        picture {
+            // width: 100%;
+            display: flex;
+            justify-content: center;
+            img {
+                width: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+    }
+}
+.data-container:last-child {
+    .info-content {
+        background: linear-gradient(#7D56FF, #1E53D8);
+        picture {
+            img {
+                width: 70%;
+            }
+        }
+    }
+}
+
+.process-illustration {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 40px 10px;
+    justify-content: space-around;
+
+    .illustration {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        
+        h3 {
+            font-size: 50px;
+            color: #0A98FF;
+        }
+
+        picture {
+            width: 200px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .nav-bar{
+        padding: 0;
+    }
+
+    .contact-head {
+        height: 180px;
+        justify-content: center;
+        h2 {
+            font-size: 50px;
+        }
+    }
+
+    .contact-sub-head {
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        h3 {
+            font-size: 30px;
+            text-align: center;
+        }
+    
+        p {
+            font-size: 20px;
+            color: #0C1F4E;
+        }
+    }
+
+    .tech-data {
+        flex-direction: column;
+        padding: 40px 30px;
+    }
+
+    .data-container{
+        width: 100%;
+
+        h3 {
+            text-align: center;
+        }
+
+        .info-content {
+            padding: 40px 20px;
+        }
+    }
+
+    .process-illustration {
+        flex-direction: column;
+        gap: 35px;
+
+        .illustration {
+            gap: 10px;
+            h3{
+                font-size: 40px;
+            }
+        }
+    }
+}

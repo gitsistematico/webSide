@@ -6,10 +6,16 @@
     .first-container {
       width: 100%;
       height: 720px;
-      background-image: url("../../assets/images/gattaca-stock-homeheroe.jpg");      
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 100% 100%;
+      // background-image: url("../../assets/images/gattaca-stock-homeheroe.jpg");      
+      // background-repeat: no-repeat;
+      // background-attachment: fixed;
+      // background-size: 100% 100%;
+      video{
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        height: auto;
+      }
       .preimplantation {
         display: flex;
         flex-direction: row;
@@ -20,17 +26,17 @@
           justify-content: space-around;
           margin-top: 111px;
           // margin-left: 120px;
-          width: 400px;
-          height: 300px;
+          width: 300px;
+          height: 200px;
           background: transparent
             linear-gradient(180deg, #0a98ff 0%, #7d56ff 100%) 0% 0% no-repeat
             padding-box;
-          border-radius: 50px 0px 90px 0px;
+          border-radius: 30px 0px 60px 0px;
           opacity: 0.87;
           padding: 25px;
           color: #ffffff;
           .label-one {
-            font-size: 32px;
+            font-size: 22px;
             line-height: 30px;
             .bold-one {
               font-weight: 600;
@@ -38,7 +44,7 @@
           }
 
           .label-two {
-            font-size: 24px;
+            font-size: 14px;
             line-height: 30px;
             a {
               color: #ffffff;
@@ -58,7 +64,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      margin-top: 130px;
+      margin-top: 108px;
       background: #eeeeee;
       padding: 30px;
       gap: 15px;
@@ -88,15 +94,16 @@
     justify-content: center;
     width: 100%;
     height: 1730px;
-    margin-top: 165px;
+    // margin-top: 50px;
     background: #030917;
-
+    padding: 20px;
     .title {
       text-align: center;
       font-size: 40px;
       color: #ffffff;
       font-weight: 600;
-      margin-bottom: 84px;
+      margin-top: 130px;
+      margin-bottom: 54px;
       line-height: 35px;
     }
 
@@ -112,7 +119,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 20%;
         text-align: center;
         img {
           width: 60%;
@@ -120,7 +127,7 @@
       }
       .separe {
         rotate: 90deg;
-        width: 20%;
+        width: 10%;
         height: 3px;
         background: #7d56ff;        
       }
@@ -171,21 +178,21 @@
       // background-repeat: no-repeat;
       // background-attachment: fixed;
       // background-size: 100% 100%; 
-      // .video-replay{
-      //   position: absolute;
-      //   width: 100%;
-      //   z-index: -1;
-      //   height: 720px;
-      // }
+      video{
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        height: auto;
+      }
       .preimplantation {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         // position: absolute;
-        // margin-top: 111px;
-        margin-left: 120px;
+        margin-top: 2%;
+        margin-left: 2%;
         width: 450px;
-        height: 350px;
+        // height: 350px;
         background: transparent
           linear-gradient(180deg, #0a98ff 0%, #7d56ff 100%) 0% 0% no-repeat
           padding-box;
@@ -223,7 +230,7 @@
     .preimplantation-last {
       display: flex;
       flex-direction: column;
-      margin-top: 130px;
+      margin-top: 470px;
       background: #eeeeee;
       padding: 30px;
       gap: 10px;
@@ -254,7 +261,7 @@
     justify-content: center;
     width: 100%;
     height: 620px;
-    margin-top: 190px;
+    margin-top: 10px;
     background: #030917;
 
     .title {

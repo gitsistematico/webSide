@@ -33,12 +33,13 @@
     padding-bottom: 15px;
     h3 {
         font-weight: 500;
-        font-size: 40px;
+        font-size: 30px;
         color: #4875FF;
     }
 
     p {
-        font-size: 25px;
+        font-size: 18px;
+        line-height: 20px;
         color: #0C1F4E;
     }
 }
@@ -87,7 +88,7 @@
             display: flex;
             justify-content: center;
             img {
-                width: 100%;
+                width: 80%;
                 object-fit: contain;
                 object-position: center;
             }
@@ -120,7 +121,7 @@
         align-items: center;
         
         h3 {
-            font-size: 50px;
+            font-size: 35px;
             color: #0A98FF;
         }
 
@@ -128,7 +129,7 @@
             width: 200px;
 
             img {
-                width: 100%;
+                width: 90%;
             }
         }
     }
